@@ -5,7 +5,7 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>com.ashutoshbilla.dt.unit.deploymentTarget</string>
+	<string>com.ab.dt.unit.deploymentTarget</string>
 	<key>Options</key>
 	<array>
 		<dict>

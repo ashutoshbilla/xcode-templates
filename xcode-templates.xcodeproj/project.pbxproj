@@ -8,6 +8,10 @@
 
 /* Begin PBXFileReference section */
 		6CCC2F7B23ED91290058847D /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		6CCC2F7D23ED921F0058847D /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		6CCC2F7E23ED922D0058847D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6CCC2F7F23ED922E0058847D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6CCC2F8023ED922E0058847D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6CD2E68B23E9D05F007FB4E0 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
 		6CD2E68C23E9D06B007FB4E0 /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
 		6CD2E68D23E9D06B007FB4E0 /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
@@ -23,6 +27,17 @@
 			path = "Deployment Target.xctemplate";
 			sourceTree = "<group>";
 		};
+		6CCC2F7C23ED920D0058847D /* Base.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				6CCC2F7D23ED921F0058847D /* TemplateInfo.plist */,
+				6CCC2F7F23ED922E0058847D /* ContentView.swift */,
+				6CCC2F7E23ED922D0058847D /* Main.storyboard */,
+				6CCC2F8023ED922E0058847D /* Preview Assets.xcassets */,
+			);
+			path = Base.xctemplate;
+			sourceTree = "<group>";
+		};
 		6CD2E68223E9D00B007FB4E0 = {
 			isa = PBXGroup;
 			children = (
@@ -34,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				6CD2E68A23E9D04C007FB4E0 /* iOS Application.xctemplate */,
+				6CCC2F7C23ED920D0058847D /* Base.xctemplate */,
 				6CD2E68E23E9D099007FB4E0 /* User Interface.xctemplate */,
 				6CCC2F7A23ED91150058847D /* Deployment Target.xctemplate */,
 			);
