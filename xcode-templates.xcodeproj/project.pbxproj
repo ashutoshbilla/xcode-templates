@@ -6,11 +6,46 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		6CD2E68B23E9D05F007FB4E0 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		6CD2E68C23E9D06B007FB4E0 /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
+		6CD2E68D23E9D06B007FB4E0 /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
+		6CD2E68F23E9D0AF007FB4E0 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		6CD2E68223E9D00B007FB4E0 = {
 			isa = PBXGroup;
 			children = (
+				6CD2E68923E9D015007FB4E0 /* Project Templates */,
 			);
+			sourceTree = "<group>";
+		};
+		6CD2E68923E9D015007FB4E0 /* Project Templates */ = {
+			isa = PBXGroup;
+			children = (
+				6CD2E68A23E9D04C007FB4E0 /* iOS Application.xctemplate */,
+				6CD2E68E23E9D099007FB4E0 /* User Interface.xctemplate */,
+			);
+			path = "Project Templates";
+			sourceTree = "<group>";
+		};
+		6CD2E68A23E9D04C007FB4E0 /* iOS Application.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				6CD2E68B23E9D05F007FB4E0 /* TemplateInfo.plist */,
+				6CD2E68C23E9D06B007FB4E0 /* TemplateIcon.png */,
+				6CD2E68D23E9D06B007FB4E0 /* TemplateIcon@2x.png */,
+			);
+			path = "iOS Application.xctemplate";
+			sourceTree = "<group>";
+		};
+		6CD2E68E23E9D099007FB4E0 /* User Interface.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				6CD2E68F23E9D0AF007FB4E0 /* TemplateInfo.plist */,
+			);
+			path = "User Interface.xctemplate";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.ashutoshbilla.dt.unit.userInterface</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.cocoaTouchApplicationBase</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>userInterface</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>User Interface:</string>
+			<key>Description</key>
+			<string>The type of user interface.</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>Storyboard</string>
+			<key>Values</key>
+			<array>
+				<string>SwiftUI</string>
+				<string>Storyboard</string>
+			</array>
+			<key>RequiredOptionsForValues</key>
+			<dict>
+				<key>SwiftUI</key>
+				<dict>
+					<key>languageChoice</key>
+					<string>Swift</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
