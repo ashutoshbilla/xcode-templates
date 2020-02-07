@@ -36,6 +36,13 @@
 				<dict>
 					<key>languageChoice</key>
 					<string>Swift</string>
+					<key>deploymentTarget</key>
+					<array>
+						<string>13.0</string>
+						<string>13.1</string>
+						<string>13.2</string>
+						<string>Latest iOS</string>
+					</array>
 				</dict>
 			</dict>
 		</dict>
