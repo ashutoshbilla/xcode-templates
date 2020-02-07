@@ -9,8 +9,8 @@
 	<key>Ancestors</key>
 	<array>
 		<string>com.apple.dt.unit.cocoaTouchApplicationBase</string>
-		<string>com.ashutoshbilla.dt.unit.deploymentTarget</string>
-		<string>com.ashutoshbilla.dt.unit.userInterface</string>
+		<string>com.ab.dt.unit.deploymentTarget</string>
+		<string>com.ab.dt.unit.userInterface</string>
 	</array>
 	<key>Nodes</key>
 	<array>

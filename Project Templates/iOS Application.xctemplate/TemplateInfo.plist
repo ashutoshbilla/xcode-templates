@@ -9,7 +9,7 @@
 	<key>Ancestors</key>
 	<array>
 		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
-		<string>com.ashutoshbilla.dt.unit.userInterface</string>
+		<string>com.ab.dt.unit.base</string>
 	</array>
 	<key>Concrete</key>
 	<true/>
@@ -19,5 +19,72 @@
 	<integer>1</integer>
 	<key>NameOfInitialFileForEditor</key>
 	<string>AppDelegate.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Objective-C</key>
+				<array>
+					<dict>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>deploymentTarget</key>
+							<array>
+								<string>11.0</string>
+								<string>11.1</string>
+								<string>11.2</string>
+								<string>11.3</string>
+								<string>11.4</string>
+								<string>12.0</string>
+								<string>12.1</string>
+								<string>12.2</string>
+								<string>12.3</string>
+								<string>12.4</string>
+							</array>
+						</dict>
+						<key>Nodes</key>
+						<array/>
+						<key>Definitions</key>
+						<dict/>
+					</dict>
+				</array>
+				<key>Swift</key>
+				<array>
+					<dict>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>deploymentTarget</key>
+							<array>
+								<string>11.0</string>
+								<string>11.1</string>
+								<string>11.2</string>
+								<string>11.3</string>
+								<string>11.4</string>
+								<string>12.0</string>
+								<string>12.1</string>
+								<string>12.2</string>
+								<string>12.3</string>
+								<string>12.4</string>
+							</array>
+						</dict>
+						<key>Definitions</key>
+						<dict>
+							<key>AppDelegate.swift:implementation:properties:window</key>
+							<string>var window: UIWindow?</string>
+							<key>AppDelegate.swift:implementation:methods:available1</key>
+							<string>@available(iOS 13.0, *)</string>
+							<key>AppDelegate.swift:implementation:methods:available2</key>
+							<string>@available(iOS 13.0, *)</string>
+							<key>SceneDelegate.swift:available</key>
+							<string>@available(iOS 13.0, *)</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>
