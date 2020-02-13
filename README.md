@@ -10,24 +10,31 @@ Currently there's only one project template. I plan on adding more features/temp
 
 *   ### iOS Application
     * Select user interface (SwiftUI or Storyboard or Programmatic).
+    
         <img src="images/choose-ui.png" alt="Choose User Interface">
         
     * Select deployment target (iOS 11.0 to iOS 13.2 (Latest iOS)) before creating a project.
+    
         <img src="images/choose-ios.png" alt="Choose iOS Deployment Target">
         
         **Note: The iOS versions are hardcoded. Choosing the Latest iOS selects the latest iOS version.**
         
     * If deployment target is < iOS 13.0, adds @available attribute for methods and classes available in iOS 13.0.
+    
         `AppDelegate.swift`
+        
         <img src="images/ios<=13.0-1.png" alt="AppDelegate.swift">
         
         `SceneDelegate.swift`
+        
         <img src="images/ios<=13.0-2.png" alt="SceneDelegate.swift">
         
     * If user interface is "Programmatic", then `window` property is initialized with a frame and `rootViewController` is set to `ViewController`.
+    
         <img src="images/ui-prog-1.png" alt="SceneDelegate.swift">
         
     * If user interface is "Programmatic" and deployment target is < iOS 13.0 then `window` property is initialised in `AppDelegate.swift` as well.
+    
         <img src="images/ui-prog-2.png" alt="AppDelegate.swift">
 
 **Note: This template was primarily made for Swift projects. Some features may not reflect in Objective-C projects.**
