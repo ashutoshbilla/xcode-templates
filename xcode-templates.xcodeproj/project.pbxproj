@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		6C9A0DFB23F53C95005EE13B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6C9A0DFC23F53C95005EE13B /* install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		6C9A0DFD23F53C95005EE13B /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6C9A0DFE23F53CBF005EE13B /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		6CCC2F7B23ED91290058847D /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
 		6CCC2F7D23ED921F0058847D /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
 		6CCC2F7E23ED922D0058847D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +46,10 @@
 			isa = PBXGroup;
 			children = (
 				6CD2E68923E9D015007FB4E0 /* Project Templates */,
+				6C9A0DFC23F53C95005EE13B /* install.sh */,
+				6C9A0DFD23F53C95005EE13B /* LICENSE */,
+				6C9A0DFB23F53C95005EE13B /* README.md */,
+				6C9A0DFE23F53CBF005EE13B /* images */,
 			);
 			sourceTree = "<group>";
 		};
