@@ -25,6 +25,7 @@
 			<array>
 				<string>SwiftUI</string>
 				<string>Storyboard</string>
+				<string>Programmatic</string>
 			</array>
 			<key>RequiredOptionsForValues</key>
 			<dict>

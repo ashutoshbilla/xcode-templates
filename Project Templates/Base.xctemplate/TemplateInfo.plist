@@ -303,6 +303,48 @@
 						<key>RequiredOptions</key>
 						<dict>
 							<key>userInterface</key>
+							<string>Programmatic</string>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>ViewController.swift:comments</string>
+							<string>ViewController.swift:imports:importCocoa</string>
+							<string>ViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+							<string>ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+							<string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
+							<string>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body:windowScene</string>
+						</array>
+						<key>Definitions</key>
+						<dict>
+							<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+							<string>// Override point for customization after application launch.
+        
+// Programmatic UI setup
+// Set ViewController as window root view controller.
+window = UIWindow(frame: UIScreen.main.bounds)
+window?.backgroundColor = .white
+window?.rootViewController = ViewController()
+window?.makeKeyAndVisible()
+
+</string>
+							<key>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</key>
+							<string></string>
+							<key>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body:windowScene</key>
+							<string>                
+// Programmatic UI setup
+// Set ViewController as window root view controller.
+if let windowScene = scene as? UIWindowScene {
+    window = UIWindow(windowScene: windowScene)
+    window?.backgroundColor = .white
+    window?.rootViewController = ViewController()
+    window?.makeKeyAndVisible()
+}</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>userInterface</key>
 							<string>SwiftUI</string>
 						</dict>
 						<key>Nodes</key>
